@@ -1,0 +1,7 @@
+SET SERVEROUTPUT ON
+BEGIN
+  FOR i IN 1 .. 10 LOOP
+    DBMS_OUTPUT.put_line(i);
+  END LOOP;
+END;
+/
